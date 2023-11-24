@@ -1,0 +1,116 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    font-family: 맑은 고딕;
+}
+
+html, body{
+    height: 100%;
+}
+
+.title {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0px 0 70px 0;
+    font-weight: 500%;
+    font-size: 45px;
+    background-color: #1d2838;
+    border-bottom: 6px solid rgb(66, 88, 122);
+    color: #ffffff;
+}
+
+.wrapper {
+    min-height: calc(100vh - 4.5rem);
+}
+
+.loginBoxAll {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.loginBox {
+    width: 350px;
+    text-align: center;
+    border: 2px solid #1d2838;
+    background-color: #ffffff;
+}
+
+.loginTitle {
+    background-color:#1d2838;
+    color:#ffffff;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: 100%;
+}
+
+.inputBox {
+    margin: 10px;
+}
+
+.inputBox input{
+    width: 200px;
+    height: 20px;
+    margin: 0 5px 20px 0;
+    padding: 2px 5px;
+}
+
+.inputBox span {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: right;
+    width: 100px;
+}
+
+.inputBox button {
+    padding: 3px 5px;
+    background-color: #1d2838;
+    color: #ffffff;
+    border: none;
+    height: 40px;
+    width: 70px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.inputBox button:hover {
+    padding: 3px 5px;
+    background-color: #070b0f;
+    color: #ffffff;
+    border: none;
+    height: 40px;
+    width: 70px;
+}
+
+.bottom footer{
+    height: 4rem;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.bottom hr{
+    margin: 0 100px 0 100px;
+}
+
+.image1{
+    margin-left: 10px;
+    padding-bottom: 5px;
+    width: 130px;
+    object-fit: fill;
+}
+
+.image2{
+    margin-left: 20px;
+    width: 100px;
+    object-fit: fill;
+}
+
+.text1{
+    margin-left: 20px;
+    position:relative;
+    top: -10px;
+    display: inline;
+}
