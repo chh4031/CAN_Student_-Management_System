@@ -15,8 +15,8 @@ html, body{
     margin: 0px 0 70px 0;
     font-weight: 500%;
     font-size: 45px;
-    background-color: #1d2838;
-    border-bottom: 6px solid rgb(66, 88, 122);
+    background-color: #2f3c4f;
+    border-bottom: 6px solid #4e617b;
     color: #ffffff;
 }
 
@@ -35,12 +35,12 @@ html, body{
 .loginBox {
     width: 350px;
     text-align: center;
-    border: 2px solid #1d2838;
+    border: 2px solid #2f3c4f;
     background-color: #ffffff;
 }
 
 .loginTitle {
-    background-color:#1d2838;
+    background-color:#2f3c4f;
     color:#ffffff;
     padding: 7px;
     font-size: 20px;
@@ -67,7 +67,7 @@ html, body{
 
 .inputBox button {
     padding: 3px 5px;
-    background-color: #1d2838;
+    background-color: #2f3c4f;
     color: #ffffff;
     border: none;
     height: 40px;
@@ -78,7 +78,7 @@ html, body{
 
 .inputBox button:hover {
     padding: 3px 5px;
-    background-color: #070b0f;
+    background-color: #1D2838;
     color: #ffffff;
     border: none;
     height: 40px;
