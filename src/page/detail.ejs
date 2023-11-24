@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="detail.css" />
+    <link rel="stylesheet" href="../detail.css" />
+    <title>전산관리페이지</title>
 </head>
+
 <body>
-    
+    <div>
+        <h1 class="title">CAN 동아리 전산관리시스템</h1>
+    </div>
+    <div class="fullbox">
+        <div class="sidebar">
+            <div class="info">
+                <p class="logininfo">로그인 정보</p>
+                    <p class="infodetail">접속날짜 : </p>
+                    <p class="infodetail">접속시간 : </p>
+                    <p class="infodetail">접속유저 : </p>
+            </div>
+            <% for(let i = 0;i < 10; i++) { %>
+            <button class="menubutton" onclick="location.href='/moveDetail'">메뉴 버튼_<%=i%></button>
+            <% } %>
+
+        </div>
+        <div class="content">
+            <% for(let i = 0;i < 50; i++) { %>
+            <h1>테스트중</h1>
+            <% } %>
+        </div>
+    </div>
 </body>
+
 </html>
