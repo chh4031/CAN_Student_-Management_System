@@ -1,12 +1,12 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+let createError = require('http-errors');
+let express = require('express');
+let path = require('path');
+let cookieParser = require('cookie-parser');
+let logger = require('morgan');
 const session = require("express-session")
 const MySQLStore = require("express-mysql-session")(session);
 
-var app = express();
+let app = express();
 
 // 세션 DB 설정
 const options = {
